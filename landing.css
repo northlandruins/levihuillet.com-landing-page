@@ -1,0 +1,134 @@
+/*defaults*/
+h1 {
+  background-color: #337194; /*3F8CB8*/
+  padding: 5px 16px;
+  border: 1px solid #000;
+}
+
+h2 {
+  font-family: serif;
+  text-align: center;
+}
+
+body {
+  background-color: #C9C9C9;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px 16px;
+  /*width: 200px;*/
+  background-color: #C9C9C9;
+}
+
+p {
+  text-align: center;
+}
+
+.midList {
+    text-align: center;
+}
+
+.midList ol {
+  display:inline-table;
+  text-align: left;
+}
+
+.midlist li {
+  display:inline;
+}
+
+/*menus*/
+/*original (vertical) menu*/
+.menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 25px;
+  width: 200px;
+  background-color: #337194;
+}
+
+.menu li a {
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000;
+  background-color: #337194;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.active {
+  background-color: #FFF;
+  color: white;
+}
+
+/*contact*/
+.contact {
+    text-align: center;
+}
+
+.contact ul {
+  display:inline-table;
+    text-align: left;
+}
+
+.contact li {
+  display:inline;
+}
+
+.contact li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+.contact li a:hover {
+  color: white;
+}
+
+/*colums with flex*/
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
